@@ -15,32 +15,39 @@
   }
   .headernav {
     text-align: right;
-    padding-right: 35px;
+    padding-right: 25px;
     font-size: large;
   }
-  .footernav {
-    padding-top: 35px;
-  }
-  a:link {
+  a.headernav:link {
     color: white;
     text-decoration: none;
   }
-  a:visited {
+  a.headernav:visited {
     color: white;
     text-decoration: none;
   }
-  a:hover {
-    font-size: 125%;
+  a.headernav:hover {
+    font-size: 120%;
   }
-  a:active {
+  a.headernav:active {
     color: red;
+  }
+  .herodog {
+    width: 100%;
+    height: auto;
   }
   p {
     font-family: Oswald;
-    font-size: large;
+    font-size: 18px;
     width: auto;
     height: auto;
     padding-top: 25px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  .footer {
+    padding-top: 25px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
   }
