@@ -45,9 +45,27 @@
     padding-left: 250px;
     padding-right: 250px;
   }
-  .footer {
+.dogs {
+  display: inline-block;
+  text-align: center;
+  border: 2px lightgray;
+  border-style: groove;
+  border-radius: 5px;
+  margin: 1px;
+  padding: 5px;
+  height: fit-content;
+  width: fit-content;
+}
+  li {
+    display: inline-flex;
+    background-color: #89DEEF;
+    list-style-type: none;
+  }
+.footer {
     padding-top: 25px;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+  }
+
+  .footerimg {
+    flex: 1 1 auto;
   }
