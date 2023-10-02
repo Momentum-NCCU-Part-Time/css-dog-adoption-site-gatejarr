@@ -13,8 +13,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
   }
  .headernav {
@@ -51,13 +51,19 @@
     padding-left: 100px;
     padding-right: 100px;
   }
+.adopt {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
 .dogbox {
   display: flex;
+  flex-flow: row wrap;
   align-items: flex-start;
   justify-content: space-between;
-  flex-flow: row wrap;
   height: 100%;
   width: 100%;
+  padding-left: 50px;
 }
 .beans {
   height: 400px;
@@ -154,17 +160,39 @@ li.traits {
     background-color: #89DEEF;
     border-radius: 6px;
     list-style-type: none;
-  } 
+  }
+.contact {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 0px;
+}
 ul.hours {
     list-style-type: square;
-    list-style-position: outside;
+    list-style-position: inside;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 .footer {
-    padding-top: 25px;
-    display: inline-flex;
-    justify-content: space-evenly;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+/*    flex-wrap: wrap; */
+    align-items: flex-start;
   }
-
-  .footerimg {
-    flex: 1 1 auto;
+  .donate {
+    background-image: url(images/donate.jpg);
+    height: 100px;
+    width: 100px
+  }
+  .location {
+    background-image: url(images/location.png);
+    height: 100px;
+    width: 100px
+  }
+  .volunteer {
+    background-image: url(images/volunteer.jpg);
+    height: 100px;
+    width: 100px
   }
