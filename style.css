@@ -52,7 +52,94 @@
     padding-right: 100px;
   }
 .dogbox {
-  display: inline-block;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  height: 100%;
+  width: 100%;
+}
+.beans {
+  height: 400px;
+  width: 315px;
+  text-align: left;
+  border: 2px lightgray;
+  border-style: groove;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+.zelda {
+  height: 400px;
+  width: 315px;
+  text-align: left;
+  border: 2px lightgray;
+  border-style: groove;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+.baby {
+  height: 400px;
+  width: 315px;
+  text-align: left;
+  border: 2px lightgray;
+  border-style: groove;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+.tomtom {
+  height: 400px;
+  width: 315px;
+  text-align: left;
+  border: 2px lightgray;
+  border-style: groove;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+.marco {
+  height: 400px;
+  width: 315px;
+  text-align: left;
+  border: 2px lightgray;
+  border-style: groove;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+.shackleton {
+  height: 400px;
+  width: 315px;
+  text-align: left;
+  border: 2px lightgray;
+  border-style: groove;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+.midge {
+  height: 400px;
+  width: 315px;
+  text-align: left;
+  border: 2px lightgray;
+  border-style: groove;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+.ladybird {
+  height: 400px;
+  width: 315px;
+  text-align: left;
+  border: 2px lightgray;
+  border-style: groove;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+.mina {
   height: 400px;
   width: 315px;
   text-align: left;
