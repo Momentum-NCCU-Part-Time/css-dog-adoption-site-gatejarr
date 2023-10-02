@@ -51,6 +51,9 @@
     padding-left: 100px;
     padding-right: 100px;
   }
+  #last {
+    padding-bottom: 25px;
+  }
 .adopt {
   padding-top: 30px;
   padding-left: 50px;
@@ -175,24 +178,23 @@ ul.hours {
 }
 .footer {
     display: flex;
-    padding: 0;
-    margin: 0;
     flex-direction: row;
-/*    flex-wrap: wrap; */
-    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
   }
   .donate {
     background-image: url(images/donate.jpg);
     height: 100px;
-    width: 100px
+    width: 100px;
   }
   .location {
     background-image: url(images/location.png);
     height: 100px;
-    width: 100px
+    width: 100px;
   }
   .volunteer {
     background-image: url(images/volunteer.jpg);
     height: 100px;
-    width: 100px
+    width: 100px;
   }
