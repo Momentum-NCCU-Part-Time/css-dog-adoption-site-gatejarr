@@ -10,12 +10,18 @@
     background-color: #004175;
     border-color: #89DEEF;
     color: white;
-    padding-top: 20px;
-    padding-left: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
   }
-  .headernav {
+ .headernav {
     text-align: right;
-    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
     font-size: large;
   }
   a.headernav:link {
@@ -27,7 +33,7 @@
     text-decoration: none;
   }
   a.headernav:hover {
-    font-size: 120%;
+    font-size: 110%;
   }
   a.headernav:active {
     color: red;
@@ -45,21 +51,8 @@
     padding-left: 250px;
     padding-right: 250px;
   }
-  div {
-    display: inline-block;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-/*.dogs {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: first baseline;
-  height: 100%;
-  width: 100%;
-} */
 .dogbox {
+  display: inline-block;
   height: 400px;
   width: 315px;
   text-align: left;
@@ -69,87 +62,6 @@
   margin: 5px;
   padding: 5px;
 }
-/*
-.dog1 {
-  height: 320px;
-  width: 315px;
-  text-align: left;
-  border: 2px lightgray;
-  border-style: groove;
-  border-radius: 5px;
-  margin: 1px;
-  padding: 5px;
-}
-.dog2 {
-  height: 320px;
-  width: 315px;
-  text-align: left;
-  border: 2px lightgray;
-  border-style: groove;
-  border-radius: 5px;
-  margin: 1px;
-  padding: 5px;
-}
-.dog4 {
-  height: 320px;
-  width: 315px;
-  text-align: left;
-  border: 2px lightgray;
-  border-style: groove;
-  border-radius: 5px;
-  margin: 1px;
-  padding: 5px;
-}
-.dog5 {
-  height: 320px;
-  width: 315px;
-  text-align: left;
-  border: 2px lightgray;
-  border-style: groove;
-  border-radius: 5px;
-  margin: 1px;
-  padding: 5px;
-}
-.dog6 {
-  height: 320px;
-  width: 315px;
-  text-align: left;
-  border: 2px lightgray;
-  border-style: groove;
-  border-radius: 5px;
-  margin: 1px;
-  padding: 5px;
-}
-.dog7 {
-  height: 320px;
-  width: 315px;
-  text-align: left;
-  border: 2px lightgray;
-  border-style: groove;
-  border-radius: 5px;
-  margin: 1px;
-  padding: 5px;
-}
-.dog8 {
-  height: 320px;
-  width: 315px;
-  text-align: left;
-  border: 2px lightgray;
-  border-style: groove;
-  border-radius: 5px;
-  margin: 1px;
-  padding: 5px;
-}
-.dog9 {
-  height: 320px;
-  width: 315px;
-  text-align: left;
-  border: 2px lightgray;
-  border-style: groove;
-  border-radius: 5px;
-  margin: 1px;
-  padding: 5px;
-} */
 li {
     display: inline-table;
     background-color: #89DEEF;
