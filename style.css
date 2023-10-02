@@ -48,8 +48,8 @@
     width: auto;
     height: auto;
     padding-top: 25px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 .dogbox {
   display: inline-block;
@@ -62,15 +62,20 @@
   margin: 5px;
   padding: 5px;
 }
-li {
+li.traits {
     display: inline-table;
     background-color: #89DEEF;
     border-radius: 6px;
     list-style-type: none;
   } 
+ul.hours {
+    list-style-type: square;
+    list-style-position: outside;
+}
 .footer {
     padding-top: 25px;
-    display: flex;
+    display: inline-flex;
+    justify-content: space-evenly;
   }
 
   .footerimg {
