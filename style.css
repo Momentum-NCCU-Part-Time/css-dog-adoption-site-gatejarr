@@ -59,12 +59,15 @@
   padding-left: 50px;
   padding-bottom: 20px;
 }
-.dogbox {
+.dogpen {
   display: flex;
+  flex-flow: row wrap;
+}
+.dogbox {
+  display: block;
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: space-between;
-  height: 100%;
   width: 100%;
   padding-left: 50px;
 }
@@ -179,22 +182,22 @@ ul.hours {
 .footer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: baseline;
     align-items: center;
   }
   .donate {
     background-image: url(images/donate.jpg);
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 275px;
   }
   .location {
     background-image: url(images/location.png);
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 275px;
   }
   .volunteer {
     background-image: url(images/volunteer.jpg);
-    height: 100px;
-    width: 100px;
+    height: 210px;
+    width: 275px;
   }
