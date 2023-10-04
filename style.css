@@ -215,6 +215,24 @@ ul.hours {
     justify-content: center;
     align-content: center;
   }
+
+  /*Hovering attempt
+  .donate a:hover {
+    display: flex;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, 0)
+    ),
+    url(images/donate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 33.33%;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-content: center;
+  } */
+  
   .location {
     display: flex;
     background: 
