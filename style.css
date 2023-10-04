@@ -182,23 +182,34 @@ ul.hours {
 }
 .footer {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: auto;
+    height: 200px;
   }
   .donate {
+    display: flex;
+    padding-top: 25px;
     background-image: url(images/donate.jpg);
-    width: 33%;
-    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.4%;
+    height: 300px;
   }
   .location {
+    display: flex;
     background-image: url(images/location.png);
-    height: 250px;
-    width: 275px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.4%;
+    height: 300px;
   }
   .volunteer {
+    display: flex;
     background-image: url(images/volunteer.jpg);
-    height: 210px;
-    width: 275px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.4%;
+    height: 300px;
   }
