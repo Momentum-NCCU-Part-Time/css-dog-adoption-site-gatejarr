@@ -210,6 +210,7 @@ ul.hours {
     url(images/donate.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 33.33%;
     flex: 1 1 auto;
     justify-content: center;
     align-content: center;
@@ -224,6 +225,7 @@ ul.hours {
     url(images/location.png);
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 33.33%;
     flex: 1 1 auto;
     justify-content: center;
     align-content: center;
@@ -238,6 +240,7 @@ ul.hours {
     url(images/volunteer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 33.33%;
     flex: 1 1 auto;
     justify-content: center;
     align-content: center;
