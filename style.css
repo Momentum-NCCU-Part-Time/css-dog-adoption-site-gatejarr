@@ -188,37 +188,56 @@ ul.hours {
     width: auto;
     height: 520px;
     margin-top: 30px;
-    background-color: lightgrey; /*placeholder to see container dimensions */
     /*padding-top: 35px; */
   }
   .footer a {
-    font-size: x-large;
+    font-size: 60px;
     font-family: Oswald;
     color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 225px;
   }
   .donate {
     display: flex;
-  /*  background-image: url(images/donate.jpg);
+    background: 
+    linear-gradient(
+      rgba(127, 17, 224, 0.45), 
+      rgba(127, 17, 224, 0.45)
+    ),
+    url(images/donate.jpg);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     flex: 1 1 auto;
     justify-content: center;
     align-content: center;
   }
   .location {
     display: flex;
-   /* background-image: url(images/location.png);
+    background: 
+    linear-gradient(
+      rgba(127, 17, 224, 0.45), 
+      rgba(127, 17, 224, 0.45)
+    ),
+    url(images/location.png);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     flex: 1 1 auto;
     justify-content: center;
     align-content: center;
   }
   .volunteer {
     display: flex;
-  /*  background-image: url(images/volunteer.jpg);
+    background: 
+    linear-gradient(
+      rgba(127, 17, 224, 0.45), 
+      rgba(127, 17, 224, 0.45)
+    ),
+    url(images/volunteer.jpg);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     flex: 1 1 auto;
     justify-content: center;
     align-content: center;
