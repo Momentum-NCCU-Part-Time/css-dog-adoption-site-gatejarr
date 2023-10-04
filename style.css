@@ -166,6 +166,7 @@ li.traits {
     background-color: #89DEEF;
     border-radius: 6px;
     list-style-type: none;
+    margin-top: 10px;
   }
 .contact {
   padding-top: 30px;
@@ -181,15 +182,15 @@ ul.hours {
 }
 .footer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: baseline;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .donate {
     background-image: url(images/donate.jpg);
-    height: 250px;
-    width: 275px;
+    width: 33%;
+    height: auto;
   }
   .location {
     background-image: url(images/location.png);
