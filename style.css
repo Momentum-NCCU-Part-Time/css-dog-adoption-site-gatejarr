@@ -185,8 +185,8 @@ ul.hours {
     flex-flow: row nowrap;
     justify-content: stretch;
     align-content: stretch;
-    width: auto;
-    height: 500px;
+    width: 100vw;
+    height: auto;
   /*  margin-top: 30px; */
     /*padding-top: 35px; */
   }
@@ -196,9 +196,9 @@ ul.hours {
     color: white;
     text-decoration: none;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
-    padding-top: 225px;
+    padding: 120px;
   }
   .donate {
     display: flex;
