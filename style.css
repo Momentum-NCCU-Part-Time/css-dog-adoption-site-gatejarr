@@ -195,9 +195,9 @@ ul.hours {
 
 /* FOOTER */
 .footlocker {
-  display: flex;
+  /*display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: center; */
   width: 100%;
   height: auto;
 }
@@ -231,10 +231,11 @@ ul.hours {
     url(images/donate.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    /* flex-grow: 1; */
     flex: 1 1 auto;
-    /*max-width: 33.33%;
+    max-width: 33.33%;
     justify-content: center;
-    align-content: center; */
+    align-content: center;
   }  
   .location {
     display: flex;
@@ -246,10 +247,11 @@ ul.hours {
     url(images/location.png);
     background-repeat: no-repeat;
     background-size: cover;
+    /* flex-grow: 1; */
     flex: 1 1 auto;
-   /* max-width: 33.33%;
+    max-width: 33.33%;
     justify-content: center;
-    align-content: center; */
+    align-content: center;
   }
   .volunteer {
     display: flex;
@@ -261,10 +263,11 @@ ul.hours {
     url(images/volunteer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    /* flex-grow: 1; */
     flex: 1 1 auto;
-    /*max-width: 33.33%;
+    max-width: 33.33%;
     justify-content: center;
-    align-content: center; */
+    align-content: center;
   }
 
 
