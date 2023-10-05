@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  /*HEADER */
+  
   header {
     font-family: Oswald;
     background-color: #004175;
@@ -42,6 +45,9 @@
     width: 100%;
     height: auto;
   }
+
+  /* HOMEPAGE / INDEX.HTML */
+  
   p {
     font-family: Oswald;
     font-size: 18px;
@@ -54,6 +60,9 @@
   #last {
     padding-bottom: 25px;
   }
+
+  /*ADOPTION PAGE */
+
 .adopt {
   padding-top: 30px;
   padding-left: 50px;
@@ -168,6 +177,9 @@ li.traits {
     list-style-type: none;
     margin-top: 10px;
   }
+
+/* CONTACT PAGE */
+
 .contact {
   padding-top: 30px;
   padding-left: 50px;
@@ -180,13 +192,22 @@ ul.hours {
     padding-top: 10px;
     padding-bottom: 50px;
 }
+
+/* FOOTER */
+.footlocker {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
 .footer {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: stretch;
-    align-content: stretch;
-    width: 100vw;
-    height: auto;
+  /*  justify-content: stretch;
+    align-content: stretch; 
+    width: auto;
+    height: 300px;
   /*  margin-top: 30px; */
     /*padding-top: 35px; */
   }
@@ -196,7 +217,7 @@ ul.hours {
     color: white;
     text-decoration: none;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     padding: 120px;
   }
@@ -210,11 +231,42 @@ ul.hours {
     url(images/donate.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 33.33%;
     flex: 1 1 auto;
+    /*max-width: 33.33%;
     justify-content: center;
-    align-content: center;
+    align-content: center; */
+  }  
+  .location {
+    display: flex;
+    background: 
+    linear-gradient(
+      rgba(127, 17, 224, 0.45), 
+      rgba(127, 17, 224, 0.45)
+    ),
+    url(images/location.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1 1 auto;
+   /* max-width: 33.33%;
+    justify-content: center;
+    align-content: center; */
   }
+  .volunteer {
+    display: flex;
+    background: 
+    linear-gradient(
+      rgba(127, 17, 224, 0.45), 
+      rgba(127, 17, 224, 0.45)
+    ),
+    url(images/volunteer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1 1 auto;
+    /*max-width: 33.33%;
+    justify-content: center;
+    align-content: center; */
+  }
+
 
   /*Hovering attempt
   .donate a:hover {
@@ -228,38 +280,6 @@ ul.hours {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 33.33%;
-    flex: 1 1 auto;
     justify-content: center;
     align-content: center;
   } */
-  
-  .location {
-    display: flex;
-    background: 
-    linear-gradient(
-      rgba(127, 17, 224, 0.45), 
-      rgba(127, 17, 224, 0.45)
-    ),
-    url(images/location.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 33.33%;
-    flex: 1 1 auto;
-    justify-content: center;
-    align-content: center;
-  }
-  .volunteer {
-    display: flex;
-    background: 
-    linear-gradient(
-      rgba(127, 17, 224, 0.45), 
-      rgba(127, 17, 224, 0.45)
-    ),
-    url(images/volunteer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 33.33%;
-    /* flex: 1 1 auto; */
-    justify-content: center;
-    align-content: center;
-  }
